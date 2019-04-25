@@ -1,4 +1,5 @@
 # FontAwesome Icons
+
 A Laravel Nova FontAwesome Icon field
 
 ## Installation:
@@ -7,9 +8,14 @@ You can install the package in to a Laravel app that uses Nova via composer:
 
 ```bash
 composer require mdixon18/fontawesome
+
+// or if you have Pro version
+
+composer require mdixon18/fontawesome:dev-pro
 ```
 
 ## Usage:
+
 Add the below to app/Nova resources.
 
 ```php
@@ -25,6 +31,7 @@ You can override the text for the field button like so
 ```
 
 You can limit the icons the user can choose from like so
+
 ```php
   Fontawesome::make('Icon')->only([
     'facebook',
@@ -34,7 +41,9 @@ You can limit the icons the user can choose from like so
 ```
 
 ## Support:
+
 mdixon14717@gmail.com
 
 ## License:
+
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
